@@ -10,7 +10,7 @@ const App = () => {
               try {
                 console.log('Trying to initialize EthereumProvider...');
                 const wcProvider = await EthereumProvider.init({
-                projectId: '39759ea0d8edf367298a6339d8964c36',
+                projectId: '{PROJECT_ID}',
                 chains: [421613],
                 showQrModal: true,
                 });
